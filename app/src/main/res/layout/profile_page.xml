@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_circle"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="116dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="insighltd"
+                android:textColor="@color/blue_text"
+                android:textSize="15sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="mumbai"
+                android:textColor="@color/blue_text"
+                android:textSize="15sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 day ago"
+                android:textColor="@color/blue_text"
+                android:textSize="15sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfbold"
+            android:text="Job Title"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Add Job title here"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/sfbold"
+            android:text="Job Description"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/job_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Add Job title here"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/sfbold"
+            android:text="Job Type"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/job_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Add Job type here"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/sfbold"
+            android:text="Job Location"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/job_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Add Job location here"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/sfbold"
+            android:text="Expected Salary"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/job_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Add expected job salary here"
+            android:textColor="@color/blue_text"
+            android:textSize="16sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_labour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfbold"
+            android:gravity="center_horizontal"
+            android:text="Labour Manager"
+            android:textColor="@color/blue_text"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <Button
+        g
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/applynowbox"
+        android:fontFamily="@font/sfbold"
+        android:text="APPLY NOW"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
