@@ -9,4 +9,7 @@
     <color name="white">#FFFFFF</color>
     <color name="blue_text">#150B3D</color>
     <color name="margin_text">#AAA6B9</color>
+    <color name="box3_color">#F2F1F7</color>
+    <color name="profile_color">#AFECFE</color>
+
 </resources>
