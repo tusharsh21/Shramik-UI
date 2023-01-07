@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Notification</string>
         <string name="selected_item">Selected item:</string>
+    <string name="required">string</string>
 
-        <string-array name="Languages">
+    <string-array name="Languages">
             <item>Java</item>
             <item>Kotlin</item>
             <item>Swift</item>
