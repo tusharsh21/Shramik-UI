@@ -14,5 +14,6 @@
     <color name="profile_color">#AFECFE</color>
     <color name="red">#AF0707</color>
     <color name="dark_grey">#373737</color>
+    <color name="srch_bar">#E4E4E4</color>
 
 </resources>

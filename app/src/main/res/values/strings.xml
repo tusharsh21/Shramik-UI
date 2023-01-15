@@ -2,6 +2,7 @@
     <string name="app_name">Notification</string>
         <string name="selected_item">Selected item:</string>
     <string name="required">string</string>
+    <string name=""
 
     <string-array name="Languages">
             <item>Java</item>
